@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 :: Verificar permisos de administrador
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
@@ -8,6 +8,9 @@ if %errorlevel% neq 0 (
     pause
     exit /b 1
 )
+
+:: Cambiar al directorio del script
+cd /d "%~dp0"
 
 :: Comprobar si Python 3.10 está instalado
 where python >nul 2>&1
