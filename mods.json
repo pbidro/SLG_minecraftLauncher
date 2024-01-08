@@ -17,5 +17,10 @@
     "gooeylib":"https://cdn.modrinth.com/data/KzjvlKEN/versions/BXIm53Zb/GooeyLibs-Fabric-3.0.0%2B1.20.1.jar",
     "impactor":"https://cdn.modrinth.com/data/LdBYVaPS/versions/KzE0nIJR/Impactor-Fabric-5.1.1%2B1.20.1.jar",
     "gts":"https://cdn.modrinth.com/data/UTjx5ypK/versions/bsTWNajU/Gts-1.1.3-fabric.jar",
-    "hunt":"https://cdn.modrinth.com/data/QMAwqHhY/versions/GdXug8ZS/Hunt-1.0.7-fabric.jar"
+    "hunt":"https://cdn.modrinth.com/data/QMAwqHhY/versions/GdXug8ZS/Hunt-1.0.7-fabric.jar",
+    "townsTowers":"https://cdn.modrinth.com/data/DjLobEOy/versions/ESRfqjkz/Towns-and-Towers-1.11-Fabric%2BForge.jar",
+    "dungeonsArise":"https://cdn.modrinth.com/data/8DfbfASn/versions/Vd5XOXlj/DungeonsArise-1.20.1-2.1.57-fabric-release.jar",
+    "handcrafted":"https://cdn.modrinth.com/data/pJmCFF0p/versions/6GmqUG4E/handcrafted-fabric-1.20.1-3.0.5.jar",
+    "Resourceful Lib":"https://cdn.modrinth.com/data/G1hIVOrD/versions/HGTwQLNx/resourcefullib-fabric-1.20.1-2.1.20.jar",
+    "Cristel Lib":"https://cdn.modrinth.com/data/cl223EMc/versions/tBnivdbu/cristellib-1.1.5-fabric.jar"
 }
