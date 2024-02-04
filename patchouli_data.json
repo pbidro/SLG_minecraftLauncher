@@ -1,0 +1,29 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "cobblepedia:cobblepedia": {
+      "viewedEntries": [
+        "cobblepedia:apricorn_set",
+        "cobblepedia:evolution_stone_ore",
+        "cobblepedia:berry_mutating",
+        "cobblepedia:machine",
+        "cobblepedia:healing_machine",
+        "cobblepedia:max_revive",
+        "cobblepedia:revive",
+        "cobblepedia:pc",
+        "cobblepedia:pasture",
+        "cobblepedia:battling_players",
+        "cobblepedia:catching",
+        "cobblepedia:evolution_stone_mining",
+        "cobblepedia:battling",
+        "cobblepedia:poke_ball_intro",
+        "cobblepedia:basic_balls",
+        "cobblepedia:citrine_ball",
+        "cobblepedia:azure_ball"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

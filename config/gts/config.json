@@ -1,0 +1,22 @@
+{
+  "broadcastListings": true,
+  "max_listings_per_player": 8,
+  "listing_duration": 72,
+  "min_price_1_IV": 10000.0,
+  "min_price_2_IV": 20000.0,
+  "min_price_3_IV": 30000.0,
+  "min_price_4_IV": 40000.0,
+  "min_price_5_IV": 50000.0,
+  "min_price_6_IV": 60000.0,
+  "min_price_HA": 50000.0,
+  "maximum_price": 1000000.0,
+  "min_item_prices": [
+    {
+      "item_name": "cobblemon:assault_vest",
+      "min_price": 10000.0
+    }
+  ],
+  "banned_items": [
+    "cobblemon:lucky_egg"
+  ]
+}
