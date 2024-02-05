@@ -1,10 +1,10 @@
-[19:43:30] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.3
-[19:43:30] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[15:58:58] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.3
+[15:58:58] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[19:43:31] [main/WARN]: Warnings were found!
+[15:58:59] [main/WARN]: Warnings were found!
  - ¡El mod 'Taterzens' (taterzens) 1.11.7 recomienda la versión 1.2.1 o posterior de disguiselib, que no tienes!
 	 - Debería instalar la versión 1.2.1 o posterior de disguiselib para una experiencia óptima.
-[19:43:31] [main/INFO]: Loading 122 mods:
+[15:58:59] [main/INFO]: Loading 123 mods:
 	- architectury 9.1.12
 	- balm-fabric 7.2.1
 	- cobblemon 1.4.1+1.20.1
@@ -107,6 +107,7 @@
 	   |-- net_kyori_event-api 5.0.0-SNAPSHOT
 	   |-- net_kyori_examination-api 1.3.0
 	   \-- net_kyori_examination-string 1.3.0
+	- infinitory 1.5.0-pre.4+1.20
 	- java 17
 	- minecraft 1.20.1
 	- naturescompass 1.20.1-2.2.3-fabric
@@ -127,13 +128,15 @@
 	- tradernpcs 1.2.0
 	- waystones 14.1.3
 	- xaerominimap 23.9.3
-[19:43:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/macos/Library/Application%20Support/minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[19:43:31] [main/INFO]: Compatibility level set to JAVA_16
-[19:43:31] [main/INFO]: Compatibility level set to JAVA_17
-[19:43:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[19:43:44] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 377 milliseconds
-[19:43:48] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:43:48] [Render thread/ERROR]: Failed to verify authentication
+[15:59:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/macos/Library/Application%20Support/minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[15:59:01] [main/INFO]: Compatibility level set to JAVA_16
+[15:59:01] [main/INFO]: Compatibility level set to JAVA_17
+[15:59:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[15:59:23] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 535 milliseconds
+[15:59:27] [main/WARN]: Method overwrite conflict for setX in balm.mixins.json:SlotAccessor from mod balm-fabric, previously written by furgl.infinitory.mixin.inventory.SlotMixin. Skipping method.
+[15:59:27] [main/WARN]: Method overwrite conflict for setY in balm.mixins.json:SlotAccessor from mod balm-fabric, previously written by furgl.infinitory.mixin.inventory.SlotMixin. Skipping method.
+[15:59:31] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:59:33] [Render thread/ERROR]: Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -150,58 +153,58 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 8 more
-[19:43:49] [Render thread/INFO]: Setting user: Koerox
-[19:43:50] [Render thread/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[19:43:50] [Render thread/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
-[19:43:51] [Render thread/ERROR]: No data fixer registered for cobblemon:pokemon
-[19:43:51] [Render thread/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[19:43:51] [Render thread/ERROR]: No data fixer registered for cobblemon:boat
-[19:43:51] [Render thread/ERROR]: No data fixer registered for cobblemon:chest_boat
-[19:43:53] [Render thread/INFO]: Starting the Best Spawner...
-[19:43:53] [Render thread/INFO]: Loaded 5 spawning condition types.
-[19:43:53] [Render thread/INFO]: Loaded 5 spawning context types.
-[19:43:53] [Render thread/INFO]: Loaded 1 spawn detail types.
-[19:43:54] [Cobblemon Showdown/INFO]: Starting showdown service...
-[19:43:58] [Cobblemon Showdown/INFO]: Showdown has been started!
-[19:43:58] [Render thread/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:species_features registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:global_species_features registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:species_feature_assignments registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:moves registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:abilities registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:species registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:species_additions registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:pokeballs registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:properties_tab_completion registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:mechanics registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:bag_items registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:spawn_pool_world registry
-[19:43:58] [Render thread/INFO]: Registered the cobblemon:berries registry
-[19:43:58] [Render thread/INFO]: [STDOUT]: Fabric Mod init
-[19:43:58] [Render thread/INFO]: [STDOUT]: CobblemonExtras - Initialized
-[19:43:58] [Render thread/INFO]: [STDOUT]: CobblemonExtras config -> /Users/macos/Documents/Repositorios/launcher-slg/config/cobblemonextras
-[19:43:58] [Render thread/INFO]: Loaded C2B lib.
-[19:43:58] [Render thread/INFO]: GTS config file read successfully.
-[19:43:58] [Render thread/ERROR]: Unable to load listings into memory for gts. Does the file exist?
-[19:43:58] [Render thread/INFO]: GTS lang file read successfully.
-[19:44:02] [Render thread/ERROR]: No data fixer registered for handcrafted
-[19:44:02] [Render thread/INFO]: Initializing API...
-[19:44:02] [Render thread/INFO]: Registering modules...
-[19:44:02] [Render thread/INFO]: Registering commands...
-[19:44:03] [Render thread/INFO]: Pebble's PokePlushie Initialized!
-[19:44:03] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[19:44:03] [Render thread/INFO]: Initializing Cobblemon client
-[19:44:04] [Render thread/INFO]: Registering Pokémon renderer
-[19:44:04] [Render thread/INFO]: Registering PokéBall renderer
-[19:44:04] [Render thread/INFO]: Registering Boat renderer
-[19:44:04] [Render thread/INFO]: Registering Boat with Chest renderer
-[19:44:04] [Render thread/INFO]: Registering custom BuiltinItemRenderers
-[19:44:05] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
-[19:44:05] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
-[19:44:05] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[19:44:07] [Render thread/INFO]: Found non-pack entry '/Users/macos/Library/Application Support/minecraft/resourcepacks/.DS_Store', ignoring
-[19:44:08] [Worker-Main-3/ERROR]: Failed to retrieve profile key pair
+[15:59:33] [Render thread/INFO]: Setting user: Koerox
+[15:59:35] [Render thread/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[15:59:35] [Render thread/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[15:59:37] [Render thread/ERROR]: No data fixer registered for cobblemon:pokemon
+[15:59:37] [Render thread/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[15:59:37] [Render thread/ERROR]: No data fixer registered for cobblemon:boat
+[15:59:37] [Render thread/ERROR]: No data fixer registered for cobblemon:chest_boat
+[15:59:40] [Render thread/INFO]: Starting the Best Spawner...
+[15:59:40] [Render thread/INFO]: Loaded 5 spawning condition types.
+[15:59:40] [Render thread/INFO]: Loaded 5 spawning context types.
+[15:59:40] [Render thread/INFO]: Loaded 1 spawn detail types.
+[15:59:42] [Cobblemon Showdown/INFO]: Starting showdown service...
+[15:59:50] [Cobblemon Showdown/INFO]: Showdown has been started!
+[15:59:50] [Render thread/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:species_features registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:global_species_features registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:species_feature_assignments registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:moves registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:abilities registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:species registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:species_additions registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:pokeballs registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:properties_tab_completion registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:mechanics registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:bag_items registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:spawn_pool_world registry
+[15:59:50] [Render thread/INFO]: Registered the cobblemon:berries registry
+[15:59:50] [Render thread/INFO]: [STDOUT]: Fabric Mod init
+[15:59:50] [Render thread/INFO]: [STDOUT]: CobblemonExtras - Initialized
+[15:59:50] [Render thread/INFO]: [STDOUT]: CobblemonExtras config -> /Users/macos/Documents/Repositorios/launcher-slg/config/cobblemonextras
+[15:59:50] [Render thread/INFO]: Loaded C2B lib.
+[15:59:50] [Render thread/INFO]: GTS config file read successfully.
+[15:59:50] [Render thread/ERROR]: Unable to load listings into memory for gts. Does the file exist?
+[15:59:50] [Render thread/INFO]: GTS lang file read successfully.
+[15:59:59] [Render thread/ERROR]: No data fixer registered for handcrafted
+[15:59:59] [Render thread/INFO]: Initializing API...
+[15:59:59] [Render thread/INFO]: Registering modules...
+[16:00:00] [Render thread/INFO]: Registering commands...
+[16:00:01] [Render thread/INFO]: Pebble's PokePlushie Initialized!
+[16:00:02] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[16:00:02] [Render thread/INFO]: Initializing Cobblemon client
+[16:00:03] [Render thread/INFO]: Registering Pokémon renderer
+[16:00:03] [Render thread/INFO]: Registering PokéBall renderer
+[16:00:03] [Render thread/INFO]: Registering Boat renderer
+[16:00:03] [Render thread/INFO]: Registering Boat with Chest renderer
+[16:00:03] [Render thread/INFO]: Registering custom BuiltinItemRenderers
+[16:00:05] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[16:00:06] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[16:00:08] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[16:00:11] [Render thread/INFO]: Found non-pack entry '/Users/macos/Library/Application Support/minecraft/resourcepacks/.DS_Store', ignoring
+[16:00:13] [Worker-Main-2/ERROR]: Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
 	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
@@ -212,48 +215,47 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[19:44:08] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (balm-fabric, cloud, cobblemon, cobblemon_spawn_notification, cobblemounts, cobblepedia, cristellib, dungeons_arise, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, handcrafted, naturescompass, patchouli, t_and_t, taterzens, terralith, waystones, xaerominimap), file/Kiece_XaerosMinimap_Cobblemon_v4.1
-[19:44:08] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
-[19:44:08] [Worker-Main-3/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[19:44:09] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
-[19:44:10] [Render thread/INFO]: Registered player tracker system: minimap_synced
-[19:44:10] [Render thread/INFO]: No Optifine!
-[19:44:10] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
-[19:44:11] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
-[19:44:25] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[19:44:25] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19:44:25] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
-[19:44:25] [Render thread/INFO]: Sound engine started
-[19:44:26] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:44:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19:44:26] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19:44:27] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:44:27] [Render thread/WARN]: Missing particle sprites: cobblemon:metal_sparks
-[19:44:27] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
-[19:44:27] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19:44:27] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
-[19:44:27] [Render thread/INFO]: Loading assets...
-[19:44:27] [Render thread/INFO]: Loading particle effects...
-[19:44:27] [Render thread/INFO]: Loaded 20 particle effects
-[19:44:27] [Render thread/INFO]: Loading animations...
-[19:44:30] [Render thread/INFO]: Loaded 3091 animations from 547 animation groups
-[19:44:30] [Render thread/INFO]: Loading Pokémon models...
-[19:44:30] [Render thread/INFO]: Loaded 631 Pokémon models.
-[19:44:31] [Render thread/INFO]: Loading Poké Ball models...
-[19:44:31] [Render thread/INFO]: Loaded 1 Poké Ball models.
-[19:44:31] [Render thread/INFO]: Loaded 71 berry models
-[19:44:31] [Render thread/INFO]: Loaded assets
-[19:44:31] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 422 jsons
-[19:44:34] [Render thread/INFO]: Successfully reloaded the minimap shaders!
-[19:44:34] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
-[19:44:42] [Worker-Main-2/ERROR]: Failed to retrieve profile key pair
+[16:00:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (balm-fabric, cloud, cobblemon, cobblemon_spawn_notification, cobblemounts, cobblepedia, cristellib, dungeons_arise, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, handcrafted, infinitory, naturescompass, patchouli, t_and_t, taterzens, terralith, waystones, xaerominimap), file/Kiece_XaerosMinimap_Cobblemon_v4.1
+[16:00:14] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[16:00:14] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[16:00:14] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[16:00:17] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[16:00:17] [Render thread/INFO]: No Optifine!
+[16:00:17] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[16:01:17] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[16:01:17] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16:01:18] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
+[16:01:18] [Render thread/INFO]: Sound engine started
+[16:01:18] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:01:19] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:01:20] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16:01:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:01:21] [Render thread/WARN]: Missing particle sprites: cobblemon:metal_sparks
+[16:01:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[16:01:21] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:01:21] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[16:01:21] [Render thread/INFO]: Loading assets...
+[16:01:21] [Render thread/INFO]: Loading particle effects...
+[16:01:21] [Render thread/INFO]: Loaded 20 particle effects
+[16:01:21] [Render thread/INFO]: Loading animations...
+[16:01:27] [Render thread/INFO]: Loaded 3091 animations from 547 animation groups
+[16:01:27] [Render thread/INFO]: Loading Pokémon models...
+[16:01:28] [Render thread/INFO]: Loaded 631 Pokémon models.
+[16:01:32] [Render thread/INFO]: Loading Poké Ball models...
+[16:01:32] [Render thread/INFO]: Loaded 1 Poké Ball models.
+[16:01:32] [Render thread/INFO]: Loaded 71 berry models
+[16:01:32] [Render thread/INFO]: Loaded assets
+[16:01:32] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 422 jsons
+[16:01:44] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[16:01:45] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[16:01:56] [Worker-Main-3/ERROR]: Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
 	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
@@ -264,385 +266,26 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[19:44:42] [Render thread/INFO]: Connecting to 34.176.200.44, 25565
-[19:44:42] [Render thread/INFO]: New minimap session initialized!
-[19:44:43] [Render thread/INFO]: Reloading entity icon resources...
-[19:44:43] [Render thread/INFO]: Done!
-[19:44:44] [Render thread/INFO]: Loaded 69 berries
-[19:44:47] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[19:44:47] [Render thread/INFO]: Loaded 216 advancements
-[19:44:47] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 791.8 μs
-[19:44:47] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.150 ms
-[19:44:47] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 819.7 μs
-[19:44:47] [Render thread/WARN]: Recipe cobblemon:iron (of type minecraft:crafting) not found
-[19:44:47] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§6Type /register <password> <password> to claim this account.
-[19:44:52] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§6Type /register <password> <password> to claim this account.
-[19:44:56] [Render thread/INFO]: [System] [CHAT] §aYou are now authenticated.
-[19:45:01] [Render thread/INFO]: [System] [CHAT] Incorrect argument for command
-[19:45:01] [Render thread/INFO]: [System] [CHAT] ...ogin poto poto<--[HERE]
-[19:49:44] [Render thread/WARN]: Unable to play empty soundEvent: cobblemon:battle.pvw.default
-[19:49:56] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:50:03] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:50:25] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:50:47] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:50:59] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:51:22] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[19:51:43] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[19:51:48] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[19:52:02] [Render thread/INFO]: [System] [CHAT] It's not your turn to act.
-[19:52:09] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[19:52:18] [Render thread/INFO]: [System] [CHAT] Shiny Teddiursa spawned at (-2852, 87, 2480)
-[19:52:21] [Render thread/INFO]: [System] [CHAT] Your party was full! Bouffalant has been added to Your PC.
-[19:52:21] [Render thread/INFO]: [System] [CHAT] Pidgeotto is now level 32!
-[19:52:21] [Render thread/INFO]: [System] [CHAT] Pidgeotto has learned Agility.
-[19:53:06] [Render thread/INFO]: Loaded 217 advancements
-[19:53:29] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[19:53:41] [Render thread/INFO]: [System] [CHAT] Your party was full! Teddiursa has been added to Your PC.
-[19:53:41] [Render thread/INFO]: [System] [CHAT] Pidgeotto is now level 33!
-[19:57:52] [Render thread/INFO]: [System] [CHAT] Combusken has recovered from fainting.
-[19:57:52] [Render thread/INFO]: [System] [CHAT] Deerling has recovered from fainting.
-[19:57:52] [Render thread/INFO]: [System] [CHAT] Tandemaus has recovered from fainting.
-[19:57:52] [Render thread/INFO]: [System] [CHAT] Graveler has recovered from fainting.
-[19:57:52] [Render thread/INFO]: [System] [CHAT] Ariados has recovered from fainting.
-[20:00:14] [Render thread/INFO]: Minimap session finalized.
-[21:16:52] [Render thread/INFO]: Connecting to 34.176.200.44, 25565
-[21:16:52] [Worker-Main-8/ERROR]: Failed to retrieve profile key pair
-java.io.IOException: Could not retrieve profile key pair
-	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
-	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21:16:53] [Render thread/INFO]: New minimap session initialized!
-[21:16:54] [Render thread/INFO]: Loaded 69 berries
-[21:16:57] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[21:16:57] [Render thread/INFO]: Loaded 217 advancements
-[21:16:57] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 4.688 ms
-[21:16:57] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.622 ms
-[21:16:57] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 727.0 μs
-[21:16:57] [Render thread/WARN]: Recipe cobblemon:iron (of type minecraft:crafting) not found
-[21:16:58] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§cYou are not authenticated!\n§6Use /login, /l to authenticate!
-[21:17:03] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§cYou are not authenticated!\n§6Use /login, /l to authenticate!
-[21:17:06] [Render thread/INFO]: [System] [CHAT] Incorrect argument for command
-[21:17:06] [Render thread/INFO]: [System] [CHAT] ...ogin poto poto<--[HERE]
-[21:17:12] [Render thread/INFO]: [System] [CHAT] §aYou are now authenticated.
-[21:17:46] [Render thread/INFO]: [System] [CHAT] Steve joined the game
-[21:19:01] [Render thread/INFO]: [System] [CHAT] Shiny Magikarp spawned at (-3517, 60, 3196)
-[21:21:33] [Render thread/INFO]: [System] [CHAT] Shiny Seedot spawned at (-3577, 72, 3500)
-[21:21:44] [Render thread/INFO]: [System] [CHAT] Shiny Bunnelby spawned at (-3668, 66, 3534)
-[21:24:24] [Render thread/INFO]: [System] [CHAT] Shiny Bunnelby spawned at (-2706, 87, 2795)
-[21:26:41] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [We Need to Go Deeper]
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Clodsire has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Bouffalant has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Clodsire has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Cloyster has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Electabuzz has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Blaziken has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Aegislash has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Milcery has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Seel has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Duskull has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Omastar has ended!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Steelix has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Porygon-Z has begun!
-[21:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Bidoof has begun!
-[21:32:10] [Render thread/INFO]: [System] [CHAT] Shiny Drowzee spawned at (-2657, 79, 2881)
-[21:35:08] [Render thread/INFO]: [System] [CHAT] Shiny Lillipup spawned at (-2678, 81, 2793)
-[21:36:11] [Render thread/INFO]: [System] [CHAT] Shiny Zigzagoon spawned at (-2729, 79, 2851)
-[21:40:38] [Render thread/INFO]: [System] [CHAT] Shiny Cottonee spawned at (-2694, 79, 2871)
-[21:44:20] [Render thread/INFO]: [System] [CHAT] Steve has completed the challenge [Hot Tourist Destinations]
-[21:45:46] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [Those Were the Days]
-[21:46:18] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [War Pigs]
-[21:46:45] [Render thread/INFO]: [System] [CHAT] Shiny Plusle spawned at (-2614, 90, 2859)
-[21:47:15] [Render thread/INFO]: [System] [CHAT] Steve was slain by Piglin Brute
-[21:47:21] [Render thread/INFO]: [Not Secure] [CHAT] <Koerox> :o
-[21:47:29] [Render thread/INFO]: [Not Secure] [CHAT] <Steve> :C
-[21:48:04] [Render thread/INFO]: [Not Secure] [CHAT] <Steve> AA
-[21:48:04] [Render thread/INFO]: [System] [CHAT] Steve tried to swim in lava
-[21:52:29] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [Oh Shiny]
-[21:52:34] [Render thread/INFO]: [Not Secure] [CHAT] <Koerox> ;o
-[21:52:47] [Render thread/INFO]: [System] [CHAT] Shiny Zigzagoon spawned at (-2626, 88, 2851)
-[21:54:26] [Render thread/INFO]: [System] [CHAT] That Ariados is not a wild Pokémon.
-[21:55:15] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[21:55:23] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [Who is Cutting Onions?]
-[21:55:31] [Render thread/INFO]: [System] [CHAT] The battle was fled.
-[22:06:10] [Render thread/INFO]: [System] [CHAT] Shiny Bidoof spawned at (-2708, 62, 2929)
-[22:07:31] [Render thread/INFO]: [System] [CHAT] Unknown or incomplete command, see below for error
-[22:07:31] [Render thread/INFO]: [System] [CHAT] poketrade steve<--[HERE]
-[22:09:22] [Render thread/INFO]: [System] [CHAT] Shiny Starly spawned at (-3571, 66, 3419)
-[22:11:42] [Render thread/INFO]: [System] [CHAT] Respawn point set
-[22:11:42] [Render thread/INFO]: [System] [CHAT] Koerox has made the advancement [Sweet Dreams]
-[22:11:42] [Render thread/INFO]: Loaded 222 advancements
-[22:14:02] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[22:14:14] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[22:14:18] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:14:34] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:14:35] [Render thread/INFO]: [System] [CHAT] Shiny Basculin spawned at (-3491, 60, 3100)
-[22:14:35] [Render thread/INFO]: [System] [CHAT] That Graveler is not a wild Pokémon.
-[22:14:47] [Render thread/INFO]: [System] [CHAT] Your party was full! Lickitung has been added to Your PC.
-[22:14:47] [Render thread/INFO]: [System] [CHAT] Graveler is now level 29!
-[22:15:30] [Render thread/INFO]: [System] [CHAT] The battle was fled.
-[22:16:28] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:16:48] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:17:26] [Render thread/ERROR]: Error executing task on Client
-java.lang.NullPointerException: client.session.profile.id must not be null
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:52) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.client.net.battle.BattleSwitchPokemonHandler.handle(BattleSwitchPokemonHandler.java:20) ~[Cobblemon.jar:?]
-	at com.cobblemon.mod.common.api.net.ClientNetworkPacketHandler$DefaultImpls.handleOnNettyThread$lambda$0(ClientNetworkPacketHandler.java:19) ~[Cobblemon.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
-	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.3-1.20.1.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.3.jar:?]
-[22:17:29] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Your party was full! Vaporeon has been added to Your PC.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling is now level 28!
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Bullet Seed.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Feint Attack.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Take Down.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Jump Kick.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Zen Headbutt.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Aromatherapy.
-[22:17:40] [Render thread/INFO]: [System] [CHAT] Deerling has learned Energy Ball.
-[22:19:53] [Render thread/INFO]: [System] [CHAT] Shiny Lechonk spawned at (-2981, 100, 2333)
-[22:21:39] [Render thread/INFO]: [System] [CHAT] Pidgeotto has recovered from fainting.
-[22:21:40] [Render thread/INFO]: [System] [CHAT] Shiny Zubat spawned at (-3160, 65, 2365)
-[22:22:41] [Render thread/INFO]: [System] [CHAT] Ariados has recovered from fainting.
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Cloyster has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Aegislash has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Clodsire has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Golduck has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Milcery has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Snivy has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Bidoof has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Steelix has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Primarina has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Porygon-Z has ended!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Chimchar has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Bouffalant has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Vespiquen has begun!
-[22:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Floragato has begun!
-[22:33:03] [Render thread/INFO]: Loaded 222 advancements
-[22:34:13] [Render thread/INFO]: [System] [CHAT] Shiny Pyukumuku spawned at (-2769, 59, 3008)
-[22:34:20] [Render thread/INFO]: [System] [CHAT] Your party was full! Magikarp has been added to Your PC.
-[22:36:42] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:37:11] [Render thread/INFO]: [System] [CHAT] Your party was full! Pyukumuku has been added to Your PC.
-[22:37:11] [Render thread/INFO]: [System] [CHAT] Pidgeotto is now level 36!
-[22:37:12] [Render thread/INFO]: [System] [CHAT] Pidgeotto seems ready to evolve!
-[22:37:31] [Render thread/INFO]: [System] [CHAT] Pidgeotto evolved into Pidgeot!
-[22:38:04] [Render thread/INFO]: [System] [CHAT] The battle was fled.
-[22:39:12] [Render thread/INFO]: [System] [CHAT] Shiny Magikarp spawned at (-2789, 60, 3044)
-[22:40:10] [Render thread/INFO]: [System] [CHAT] Shiny Arrokuda spawned at (-2828, 55, 3044)
-[22:40:37] [Render thread/INFO]: Loaded 241 advancements
-[22:42:50] [Render thread/INFO]: Loaded 241 advancements
-[22:42:58] [Render thread/INFO]: [System] [CHAT] Shiny Pineco spawned at (-2547, 82, 3285)
-[22:43:22] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
-[22:43:34] [Render thread/INFO]: [System] [CHAT] Your party was full! Pineco has been added to Your PC.
-[22:43:34] [Render thread/INFO]: [System] [CHAT] Pidgeot is now level 37!
-[22:44:52] [Render thread/INFO]: [System] [CHAT] Shiny Fidough spawned at (-2393, 89, 3407)
-[22:45:57] [Render thread/INFO]: [System] [CHAT] Koerox fell from a high place
-[22:46:02] [Render thread/INFO]: [System] [CHAT] You have no home bed or charged respawn anchor, or it was obstructed
-[22:46:02] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[22:46:16] [Render thread/INFO]: [System] [CHAT] Shiny Fidough spawned at (-2646, 81, 2815)
-[22:46:33] [Render thread/INFO]: [System] [CHAT] Shiny Zigzagoon spawned at (-3560, 65, 3425)
-[22:48:00] [Render thread/INFO]: [Not Secure] [CHAT] <Steve> ya vuelvo
-[22:48:25] [Render thread/INFO]: [System] [CHAT] Shiny Pachirisu spawned at (-3592, 65, 3465)
-[22:49:40] [Render thread/INFO]: Loaded 241 advancements
-[22:52:31] [Render thread/INFO]: [System] [CHAT] Respawn point set
-[22:52:41] [Render thread/INFO]: [System] [CHAT] Shiny Pineco spawned at (-2370, 90, 3426)
-[22:53:48] [Render thread/INFO]: Loaded 261 advancements
-[22:56:44] [Render thread/INFO]: [System] [CHAT] Shiny Magikarp spawned at (-2819, 60, 1561)
-[22:58:51] [Render thread/INFO]: [System] [CHAT] Shiny Pidgey spawned at (-2328, 83, 3406)
-[22:58:57] [Render thread/INFO]: [System] [CHAT] Steve has made the advancement [You Are A Pirate]
-[23:00:07] [Render thread/INFO]: [System] [CHAT] Steve was slain by Vindicator
-[23:01:20] [Render thread/INFO]: Loaded 274 advancements
-[23:02:54] [Render thread/INFO]: [System] [CHAT] Shiny Torkoal spawned at (-2442, 74, 3406)
-[23:03:47] [Render thread/INFO]: [System] [CHAT] Shiny Rattata spawned at (-2355, 83, 3307)
-[23:07:01] [Render thread/INFO]: [System] [CHAT] Shiny Teddiursa spawned at (-2384, 88, 3419)
-[23:07:04] [Render thread/INFO]: [System] [CHAT] Shiny Nickit spawned at (-2369, 74, 3324)
-[23:07:19] [Render thread/INFO]: [System] [CHAT] Steve was slain by Vindicator
-[23:09:24] [Render thread/INFO]: Loaded 277 advancements
-[23:10:47] [Render thread/INFO]: [System] [CHAT] Shiny Spinarak spawned at (-2441, 47, 3436)
-[23:13:13] [Render thread/INFO]: Loaded 280 advancements
-[23:15:00] [Render thread/INFO]: Loaded 301 advancements
-[23:17:35] [Render thread/INFO]: [System] [CHAT] Shiny Gastly spawned at (-2115, 17, 3578)
-[23:17:54] [Render thread/INFO]: [System] [CHAT] Shiny Emolga spawned at (-2252, 92, 3529)
-[23:18:11] [Render thread/INFO]: [System] [CHAT] Shiny Buneary spawned at (-2703, 65, 1140)
-[23:18:15] [Render thread/INFO]: [System] [CHAT] Koerox was doomed to fall
-[23:18:34] [Render thread/INFO]: [System] [CHAT] You have no home bed or charged respawn anchor, or it was obstructed
-[23:18:34] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[23:18:51] [Render thread/INFO]: [System] [CHAT] Shiny Wooloo spawned at (-2609, 85, 2820)
-[23:22:34] [Render thread/INFO]: Loaded 301 advancements
-[23:22:58] [Render thread/INFO]: Loaded 301 advancements
-[23:24:09] [Render thread/INFO]: Loaded 301 advancements
-[23:24:26] [Render thread/INFO]: [System] [CHAT] Shiny Mabosstiff spawned at (-2145, 101, -277)
-[23:24:58] [Render thread/INFO]: Minimap session finalized.
-[23:26:19] [Render thread/INFO]: Connecting to 34.176.200.44, 25565
-[23:26:19] [Worker-Main-27/ERROR]: Failed to retrieve profile key pair
-java.io.IOException: Could not retrieve profile key pair
-	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
-	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[23:26:19] [Render thread/INFO]: New minimap session initialized!
-[23:26:19] [Render thread/INFO]: Loaded 69 berries
-[23:26:22] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[23:26:22] [Render thread/WARN]: Received passengers for unknown entity
-[23:26:22] [Render thread/WARN]: Received passengers for unknown entity
-[23:26:22] [Render thread/INFO]: Loaded 301 advancements
-[23:26:22] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 806.6 μs
-[23:26:22] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.439 ms
-[23:26:22] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.241 ms
-[23:26:22] [Render thread/WARN]: Recipe cobblemon:iron (of type minecraft:crafting) not found
-[23:26:30] [Render thread/INFO]: [System] [CHAT] §6You are already authenticated.
-[23:26:37] [Render thread/INFO]: [System] [CHAT] Shiny Buneary spawned at (-2107, 91, 3404)
-[23:27:02] [Render thread/INFO]: [System] [CHAT] Shiny Phanpy spawned at (-2151, 79, -403)
-[23:27:43] [Render thread/INFO]: [System] [CHAT] Shiny Stantler spawned at (-2234, 96, 3433)
-[23:31:53] [Render thread/INFO]: [System] [CHAT] Shiny Pineco spawned at (-2186, 93, 3539)
-[23:32:00] [Render thread/INFO]: [System] [CHAT] Shiny Zubat spawned at (-2187, 43, 3452)
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Golduck has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Snivy has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Sableye has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Quilladin has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Primarina has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Chimchar has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Vespiquen has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Bouffalant has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Magnemite has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Yamask has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §3The hunt for Floragato has ended!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Illumise has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Snivy has begun!
-[23:32:03] [Render thread/INFO]: [System] [CHAT] §5[Hunt] §bThe hunt for Magneton has begun!
-[23:34:07] [Render thread/INFO]: [Not Secure] [CHAT] <Koerox> rr
-[23:34:11] [Render thread/INFO]: [Not Secure] [CHAT] <Koerox> wç
-[23:35:43] [Render thread/INFO]: [System] [CHAT] Koerox fell from a high place
-[23:35:44] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[23:35:52] [Render thread/INFO]: Minimap session finalized.
-[23:35:56] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[16:01:56] [Render thread/INFO]: Connecting to 34.176.200.44, 25565
+[16:01:56] [Render thread/INFO]: New minimap session initialized!
+[16:01:59] [Render thread/INFO]: Reloading entity icon resources...
+[16:01:59] [Render thread/INFO]: Done!
+[16:01:59] [Render thread/INFO]: Loaded 69 berries
+[16:02:04] [Render thread/INFO]: Minimap updated server level id: -1821473511 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[16:02:05] [Render thread/INFO]: Loaded 325 advancements
+[16:02:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 2.547 ms
+[16:02:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 6.404 ms
+[16:02:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 1.228 ms
+[16:02:06] [Render thread/WARN]: Recipe cobblemon:iron (of type minecraft:crafting) not found
+[16:02:06] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§cYou are not authenticated!\n§6Use /login, /l to authenticate!
+[16:02:06] [Render thread/INFO]: [System] [CHAT] §cYou are not authenticated!\n§6Try with /login, /l or /register.\n§cYou are not authenticated!\n§6Use /login, /l to authenticate!
+[16:02:15] [Render thread/INFO]: [System] [CHAT] §aYou are now authenticated.
+[16:02:38] [Render thread/INFO]: [System] [CHAT] That Pidgeot is not a wild Pokémon.
+[16:07:16] [Render thread/INFO]: [System] [CHAT] Shiny Geodude spawned at (-1831, 107, 3556)
+[16:07:38] [Render thread/WARN]: Unable to play empty soundEvent: cobblemon:battle.pvw.default
+[16:07:53] [Render thread/INFO]: [System] [CHAT] Throw a PokéBall at your opponent to capture it.
+[16:07:53] [Render thread/INFO]: [System] [CHAT] Shiny Vulpix spawned at (-1888, 106, 3569)
+[16:08:09] [Render thread/INFO]: [System] [CHAT] Your party was full! Geodude has been added to Your PC.
+[16:08:41] [Render thread/INFO]: [System] [CHAT] Your party was full! Vulpix has been added to Your PC.
+[16:08:55] [Render thread/INFO]: Minimap session finalized.
+[16:09:06] [Render thread/INFO]: Stopping!
