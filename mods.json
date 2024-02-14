@@ -29,5 +29,16 @@
     "easyauth":"https://cdn.modrinth.com/data/aZj58GfX/versions/hKFWKzLt/easyauth-mc1.20-3.0.19.jar",
     "Mcawwindows":"https://cdn.modrinth.com/data/C7I0BCni/versions/qfD1I3R7/mcw-windows-2.2.1-mc1.20.1fabric.jar",
     "Macawroofs":"https://cdn.modrinth.com/data/B8jaH3P1/versions/1pifUOpQ/mcw-roofs-2.3.0-mc1.20.1fabric.jar",
-    "backpacks":"https://cdn.modrinth.com/data/I0UYcPa0/versions/ed738xvb/inmis-2.7.2-1.20.1.jar"
+    "backpacks":"https://cdn.modrinth.com/data/I0UYcPa0/versions/ed738xvb/inmis-2.7.2-1.20.1.jar",
+    "trainers":"https://cdn.modrinth.com/data/1QV9wNCJ/versions/tgNjwbHT/CobblemonTrainers-fabric-0.9.3%2B1.20.1.jar",
+    "cobblemonWitheout":"https://cdn.modrinth.com/data/ejHErp1a/versions/vnLrnuAd/cobblemon-whiteout-1.4-fabric-1.0.0.jar",
+    "pokeNav":"https://cdn.modrinth.com/data/bI8Nt3uA/versions/XVzBScS7/Cobblenav-1.1.2.jar",
+    "ApricornOnLeaves":"https://cdn.modrinth.com/data/X2uJsd1M/versions/zYb7zVHd/cobblemon-plantapricorns-1.4-fabric-1.0.0.jar",
+    "gymBadges":"https://cdn.modrinth.com/data/HnePtkev/versions/xyj4AmwN/GymBadges-1.0.jar",
+    "CobblemonIntegrations":"https://cdn.modrinth.com/data/NPCfuUI4/versions/M2R0CdmL/cobblemonintegrations-1.20.1-1.0.4.jar",
+    "Jade":"https://cdn.modrinth.com/data/nvQzSEkH/versions/CciLEAMK/Jade-1.20-fabric-11.8.0.jar",
+    "Cobbreeding":"https://cdn.modrinth.com/data/ItmVb4zY/versions/HI9jimm2/Cobbreeding-fabric-1.5.3.jar",
+    "Fossilmon":"https://cdn.modrinth.com/data/VVoACIjO/versions/SLHYSyGu/cobblefossil-0.0.6.jar",
+    "SpawnEvents":"https://cdn.modrinth.com/data/p2sZFuwO/versions/kxAMvhBv/pebbles-spawnevents-1.0.1-fabric.jar",
+    "PcVariants":"https://cdn.modrinth.com/data/rPusDq97/versions/crWcJGhK/GesteeysPCVariants_v1.2_1.20.1_fabric.jar"
 }
